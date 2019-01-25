@@ -1,0 +1,76 @@
+table, th,td{
+	border:1px solid black;
+	border-collapse:collapse;
+}
+#add_button {
+    background: #bd6969;
+    margin: 5px;
+    margin-bottom: 6px;
+    cursor: pointer;
+    border: none;
+    padding: 9px;
+    color: white;
+    width: 60px;
+    height: 36px;
+    border-radius: 10px;
+	box-shadow:-1px -1px 8px rgba(32,33,36,.28), 1px 2px 8px rgba(32,33,36,.28), 1px 2px 8px rgba(32,33,36,.28);
+	position: relative;
+    left: 74%;
+}
+[id^="edit_"]{
+	background: #5d5bdc;
+    border: none;
+    margin: 6px;
+    padding: 5px;
+    width: auto;
+    color: white;
+    border-radius: 5px;
+    /* background-color: white; */
+    box-shadow: -1px -1px 8px rgba(32,33,36,.28), 1px 2px 8px rgba(32,33,36,.28), 1px 2px 8px rgba(32,33,36,.28);
+	cursor: pointer;
+}
+
+[id^="delete_"]{
+	background: #d2453e;
+    border: none;
+    margin: 6px;
+    padding: 5px;
+    width: auto;
+    color: white;
+    border-radius: 5px;
+    
+    box-shadow: -1px -1px 8px rgba(32,33,36,.28), 1px 2px 8px rgba(32,33,36,.28), 1px 2px 8px rgba(32,33,36,.28);
+	cursor: pointer;
+
+}
+[id^="saving_"]{
+	background:#04c1ec;
+	border: none;
+    margin: 6px;
+    padding: 5px;
+    width: auto;
+    color: white;
+    border-radius: 5px;
+    
+    box-shadow: -1px -1px 8px rgba(32,33,36,.28), 1px 2px 8px rgba(32,33,36,.28), 1px 2px 8px rgba(32,33,36,.28);
+	cursor: pointer;
+}
+#save_row{
+	padding: 5px;
+    align-items: center;
+    margin-left: 50px;
+    margin: 5px 50px;
+    background: #209820;
+    border: none;
+    width: auto;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+	box-shadow:-1px -1px 8px rgba(32,33,36,.28), 1px 2px 8px rgba(32,33,36,.28), 1px 2px 8px rgba(32,33,36,.28);
+}
+.fas{
+	margin-right:5px;
+}
+.fa-save{
+	float:left;
+}
