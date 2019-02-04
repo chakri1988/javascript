@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Learning JavaScript</title>
+    </head>
+    <body>
+        <form id="register-form"> 
+            <input id="name" type="text" placeholder="Name" value=""/>
+            <input id="pw" type="password" placeholder="Password" value=""/>
+            <input id="email" type="email" placeholder="Email Address" value=""/>
+            <input id="phnumber" type="phnumber" placeholder="Enter phone Number" value=""/>
+            <input id="rgstr_btn" type="submit" value="register" onClick="register()"/> 
+        </form>
+
+        <form id="login-form" class="loginform" style="display:none"> 
+            <input id="userName" type="text" placeholder="Enter Username" value=""/>
+            <input id="userPw" type="password" placeholder="Enter Password" value=""/>
+            <input id="login_btn" type="submit" value="Login" onClick="login()"/> 
+       </form>
+<div>
+    <input  id="back_login" type="button" value="back to login" onclick='back_login()'>
+</div>
+
+
+    <script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" language="javascript" src="login.js"></script>
+
+    </body>
+</html>
