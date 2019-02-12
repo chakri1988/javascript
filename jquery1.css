@@ -1,0 +1,50 @@
+/* .mail_list {
+    width: 220px;
+    height: auto;
+    float: left;
+    border-radius: 10px;
+    background: #cce0cc;
+    margin: 0px 5px;
+    min-height: 230px;
+    padding-bottom: 10px;
+}
+h3 {
+    background: #ad7171;
+    height: 27px;
+    padding-left: 58px;
+    color: #e4bcbc;
+}
+.mail_list input,.mail_list textarea{
+    width: 200px;
+    margin: 2px 5px;
+}
+.maindata {
+    margin: 5px;
+    padding: 5px;
+    width: 203px;
+    background: white;
+    border-radius: 10px;
+}
+#Adddata{
+    margin:5px;
+}
+.task_status{
+    background: #2d46c3;
+    color: #fff;
+    width: 111px;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 24pt;
+} */
+
+.task-status{
+    background: #359933;
+    width: 160px;
+    text-align: center;
+    color: #fff;
+}
+.close{
+    position: relative;
+    bottom: 92px;
+    font-size: 17px;
+}
